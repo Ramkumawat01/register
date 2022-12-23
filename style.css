@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    background: linear-gradient(to right top, pink 10%, skyblue);
+}
+
+section
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+section .reg-box
+{
+    min-width: 350px;
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 5px 15px #555;
+}
+
+section .reg-box h3,small
+{
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+section .reg-box small{color: #444;}
+
+.hr-line
+{
+    margin-top: 20px;
+    border: 1px solid gray;
+    opacity: 0.2;
+}
+
+section .reg-box form
+{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+section .reg-box form label
+{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+section .reg-box form input
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgrey;
+    outline: none;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+section .reg-box form input:focus
+{
+    border: 2px solid skyblue;
+    
+
+}
+
+section .reg-box form input[type="checkbox"]
+{
+    width: 15px;
+    height: 15px;
+    display: inline;
+    position: relative;
+    top: 2px;
+    left: 0;
+    cursor: pointer;
+}
+
+section .reg-box form a
+{
+    text-decoration: none;
+}
+
+section .reg-box form button
+{
+    width: 100px;
+    height: 40px;
+    background: rgb(17, 150, 211);
+    border: 1px transparent;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
